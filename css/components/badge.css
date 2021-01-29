@@ -1,0 +1,22 @@
+.badge--comment {
+  background-color: tomato;
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  left: 18px;
+  bottom: 15px;
+}
+
+.badge--news {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 12px;
+  left: 30px;
+  bottom: 25px;
+}
