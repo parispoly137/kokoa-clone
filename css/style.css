@@ -1,16 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap");
 @import "reset.css";
 @import "variables.css";
+
 /* Components */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
+
 /* Screens */
 @import "screens/login.css";
+@import "screens/friends.css";
 
 body {
+  color: #2e363e;
   font-family: "Karla", sans-serif;
-  height: 1000vh;
 }
 
 .status-bar {
