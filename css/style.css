@@ -9,4 +9,10 @@
 
 body {
   font-family: "Karla", sans-serif;
+  height: 1000vh;
+}
+
+.status-bar {
+  position: fixed;
+  width: 100%;
 }
