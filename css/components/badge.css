@@ -1,4 +1,4 @@
-.badge--comment {
+.badge__comment {
   background-color: tomato;
   width: 24px;
   height: 24px;
@@ -12,11 +12,20 @@
   bottom: 15px;
 }
 
-.badge--news {
+.badge__news--sm {
   background-color: tomato;
   width: 6px;
   height: 6px;
-  border-radius: 12px;
+  border-radius: 3px;
+  left: 20px;
+  bottom: 20px;
+}
+
+.badge__news--lg {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
   left: 30px;
   bottom: 25px;
 }
