@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Find - Kokoa Talk</title>
+  <title>More - Kokoa Talk</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -24,9 +24,10 @@
   </div>
 
   <header class="screen-header">
-    <h1 class="screen-header__title">Find</h1>
+    <h1 class="screen-header__title">More</h1>
     <div class="screen-header__icons">
       <span><i class="fas fa-search fa-lg"></i></span>
+      <span><i class="fas fa-music fa-lg"></i></span>
         <span class="alarm__parent">
           <div class="alarm__child badge__news--sm"> </div>
           <a href="settings.html">
@@ -38,56 +39,64 @@
   </header>
 
 <main class="main-screen">
+  <div class="user-component user-component__more-screen">
+    <div class="user-component__column">
+      <img src="img/profile.png" class="user-component__avatar user-component__avatar--xl">
+      <div class="user-component__text">
+        <h4 class="user-component__title">Terry</h4>
+        <h6 class="user-component__subtitle">+1 234-567-8900
+          <i class="fas fa-exclamation-circle user-component__number-alert"></i>
+        </h6>
+      </div>
+    </div>
+    <div class="user-component__column">
+      <i class="far fa-comment-alt fa-2x"></i>
+    </div>
+  </div>
+
+  <div class="more-icons">
   <div class="icon-grid">
     <div class="icon-grid__icon">
-      <i class="fas fa-qrcode"></i>
-      <span>QR Code</span></div>
-
+      <i class="far fa-calendar-check"></i>
+      <span>Calendar</span></div>
     <div class="icon-grid__icon">
-      <i class="far fa-address-book"></i>
-      <span>Add by Contacts</span></div>
-
+      <i class="fas fa-archive"></i>
+      <span>Talk Drive</span></div>
     <div class="icon-grid__icon">
-      <i class="fas fa-fingerprint"></i>
-      <span>Add by ID</span></div>
-
+      <i class="far fa-smile-beam"></i>
+      <span>Emoticons</span></div>
     <div class="icon-grid__icon">
-      <i class="far fa-envelope"></i><span>Invite</span></div>
+      <i class="fas fa-paint-roller"></i><span>Themes</span></div>
   </div>
+  <div class="icon-grid">
+    <div class="icon-grid__icon">
+      <i class="fas fa-file-invoice"></i>
+      <span>Account</span></div>
+    <div class="icon-grid__icon">
+      <i class="far fa-comments"></i>
+      <span>Openchat</span></div>
+    
+  </div>
+</div>
 
-  <div class="recommended-friends">
-    <h6>Recommended Friends</h6>
-    <span>You have no recommended friends</span>
-  </div>
+<div class="more-suggestions__header">
+  <h6>Suggestions</h6>
+</div>
+<div class="more-suggestions__icons">
+  <div class="icon-grid">
+    <div class="icon-grid__icon">
+      <div class="suggestions__icon suggestions__icon-quote">
+      <i class="fas fa-quote-right"></i></div>
+      <span>Kokoa Story</span></div>
+    <div class="icon-grid__icon">
+      <img class="suggestions__icon" src="img/cookie.png">
+      <span>Cookie Runaway</span></div>
+    <div class="icon-grid__icon">
+      <img class="suggestions__icon" src="img/lol.png">
+      <span>Club of Legends</span></div>
+</div>
 
-  <div class="open-chat__header">
-    <h6>Open Chats</h6>
-    <span>Go to Openchat Home
-      <i class="fas fa-chevron-right fa-xs" ></i>
-    </span>
-  </div>
-  
-  <div class="open-post">
-    <div class="open-post__column">
-      <h5 class="open-post__title">#KAKAO</h5>
-      <h6 class="open-post__hashtags">#kakao#muzi#kakaofriends</h6>
-      <div class="open-post__members">
-        <img src="img/open-post-profile.png">
-        <span class="open-post__member-count">802 members</span>
-        <div class="divider"></div>
-        <span class="open-post__member-status">Active</span>
-      </div>
-    </div>
-    <div class="open-post__column">
-      <div class="open-post__photo">
-        <img src="img/open-post-image.png">
-        <div class="open-post__heart-count">
-          <i class="fas fa-heart fa-sm"></i>
-          <span>326</span>
-        </div>
-      </div>
-    </div>
-    </div>
+
 </main>
 
 
