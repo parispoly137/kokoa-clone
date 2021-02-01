@@ -22,8 +22,9 @@
 
 .welcome-screen__column h1 {
   margin-top: 40px;
-  font-size: 20px;
+  font-size: 18.5px;
   font-weight: 600;
+  transition: font-size 0.3s linear;
 }
 
 .welcome-screen__column h3 {
@@ -65,7 +66,7 @@
 
 @media screen and (max-width: 370px) {
   .welcome-screen__column h1 {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .welcome-screen__column h3 {
