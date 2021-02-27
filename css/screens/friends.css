@@ -11,6 +11,10 @@
   color: var(--mid-gray);
 }
 
+body {
+  height: 10000vh;
+}
+
 .friends-screen__channel {
   margin-top: 5px;
   border-top: var(--main-border);
